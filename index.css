@@ -1,0 +1,27 @@
+.container{
+    background-color: #eaffe6;
+    margin: 70px;
+}
+
+.header{
+    padding: 20px;
+}
+
+.coluna1{
+    background-color: #15886f;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+.coluna2{
+    background-color: #34eec6;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;  /* espaço entre a coluna 1 e 2 */ 
+}
+
