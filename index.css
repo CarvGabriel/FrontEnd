@@ -1,23 +1,26 @@
 .container{
     background-color: #eaffe6;
     margin: 70px;
+    box-shadow: 5px 5px 10px 3px #0000008a;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .header{
-    padding: 20px;
+    padding: 50px;
 }
 
 .coluna1{
     background-color: #15886f;
     padding: 10px;
     width: 50%;
-    text-align: center;
+    color: #fff;
 }
 .coluna2{
-    background-color: #34eec6;
+    background-color: #35b89b;
     padding: 10px;
     width: 50%;
-    text-align: center;
+    color: #fff;
 }
 
 .flex-container{
@@ -25,3 +28,68 @@
     justify-content: space-around;  /* espaço entre a coluna 1 e 2 */ 
 }
 
+.assMensal{
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.pMes{
+    font-size: 12px;
+}
+.cancel{
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.icon{
+    text-align: center;
+}
+.line2{
+    padding: 10px;
+}
+.lista{
+    padding: 10px;
+    padding-left:60px;
+}
+
+
+h1{
+    color: #15886F;
+    font-size: 34px;
+}
+
+h2{
+    color: #3bcfaf;
+    font-size: 22px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    padding: 10px;
+    padding-inline: 26px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.botao{
+    text-align: center;
+}
+
+@media screen and (max-width: 670px){
+    .flex-container{
+        display: block;
+    }
+
+    .coluna1, .coluna2{
+        width: 100%;
+    }
+}
