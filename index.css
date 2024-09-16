@@ -1,9 +1,9 @@
 .container{
     background-color: #eaffe6;
-    margin: 20px;
     box-shadow: 5px 5px 10px 3px #0000008a;
     border-radius: 10px;
     overflow: hidden;
+    margin: 100px;
 }
 
 .header{
@@ -21,6 +21,14 @@
     padding: 10px;
     width: 50%;
     color: #fff;
+}
+
+.linha2{
+    background-color: #15886f;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
 }
 
 .flex-container{
@@ -58,7 +66,6 @@
     padding-left:60px;
 }
 
-
 h1{
     color: #15886F;
     font-size: 2.1rem;
@@ -73,6 +80,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+input{
+    width: 75%;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 0;
+}
+
 button{
     padding: 10px;
     width: 80%;
@@ -81,9 +96,20 @@ button{
     text-align: center;
     border-radius: 10px;
     font-size: 1rem;
+    font-weight: bold;
+    color: #15886F;
 }
 .botao{
     text-align: center;
+}
+button:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 820px){
+    .container{
+        margin: 50px;
+    }
 }
 
 @media screen and (max-width: 620px){
@@ -96,5 +122,9 @@ button{
 
     html{
         font-size: 12px;
+    }
+
+    .container{
+        margin: 20px;
     }
 }
